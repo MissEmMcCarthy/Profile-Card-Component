@@ -1,0 +1,101 @@
+body{
+    font-family: 'Kumbh Sans', Sans Serif;
+    color: hsl(229, 23%, 23%);
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.backgroundtop{
+    position: fixed;
+    left: -20%;
+    top: -80%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.backgroundbottom{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.cardwrapper{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    margin: auto;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 3rem 2rem rgba(106, 111, 129, 0.432);
+}
+.cardpattern{
+    border-radius: 1rem 1rem 0 0;
+}
+
+#profileimage{
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    position: absolute;
+    left: 120px;
+    top: 85px;
+}
+
+.statscontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2, p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-top: 75px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+a{
+    color: hsl(0, 0%, 57%);
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+#location{
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 57%);
+    margin-top: 10px;
+}
+
+.statscontainer{
+    margin-top: 25px;
+    border-top: 1px solid hsl(0, 0%, 85%);
+}
+
+.statscontainer h2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.statscontainer p{
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
+    color: hsl(0, 0%, 57%);
+}
